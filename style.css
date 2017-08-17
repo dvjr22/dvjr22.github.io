@@ -1,0 +1,59 @@
+
+/* Class declaration */
+.test {
+  color: red;
+}
+
+/* Element declaration */
+h2 {
+  color: blue;
+}
+
+
+div.container {
+	width: 100%;
+	border: 1px solid red;
+
+}
+
+footer {
+	padding: 1em;
+	color: white;
+	clear: left;
+	text-align: center;
+	background-color: black;
+}
+
+header {
+	padding: 1em;
+	color: white;
+	clear: left;
+	text-align: center;
+	background-image: url("Img/header03.jpg");
+	background-size: 100% ;
+}
+
+nav {
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+	   
+nav ul a {
+	text-decoration: none;
+}
+
+article {
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1em;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 1px;
+}

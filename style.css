@@ -9,6 +9,10 @@ h2 {
   color: blue;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 
 div.container {
 	width: 100%;
@@ -51,9 +55,11 @@ nav ul a {
 
 article {
 	margin-left: 170px;
-	border-left: 1px solid gray;
+	border: 1px solid gray;
+	border-left: 1px red;
 	padding: 1em;
 	overflow: hidden;
 	border-style: solid;
 	border-width: 1px;
+	/* margin-bottom: 10px; */
 }

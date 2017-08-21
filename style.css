@@ -11,30 +11,41 @@ h2 {
 
 * {
 	box-sizing: border-box;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 
 div.container {
 	width: 100%;
 	border: 1px solid red;
+	position: relative;
+	margin: 200px auto;
 
 }
 
-footer {
+.footer {
 	padding: 1em;
 	color: white;
 	clear: left;
 	text-align: center;
 	background-color: black;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	bottom: 0px;
 }
 
-header {
-	padding: 1em;
+.header {
+	/*padding: 1em;*/
 	color: white;
-	clear: left;
 	text-align: center;
 	background-image: url("Img/header03.jpg");
-	background-size: 100% ;
+	background-size: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	top: 0px;
 }
 
 nav {

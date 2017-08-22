@@ -27,7 +27,6 @@ div.container {
 .footer {
 	padding: 1em;
 	color: white;
-	clear: left;
 	text-align: center;
 	background-color: black;
 	width: 100%;
@@ -40,12 +39,14 @@ div.container {
 	/*padding: 1em;*/
 	color: white;
 	text-align: center;
-	background-image: url("Img/header03.jpg");
-	background-size: 100%;
+	background: url("Img/header03.jpg");
+	background-color: black;
+	background-size: cover;
 	width: 100%;
 	position: fixed;
 	z-index: 1000;
 	top: 0px;
+	display: block;
 }
 
 nav {

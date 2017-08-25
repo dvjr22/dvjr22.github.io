@@ -1,0 +1,35 @@
+
+**************************************************************************************************************
+About me
+A little about me...
+
+I'm an inquisitive, energetic computer scientist with a passion for data collection/management and software
+design.
+
+I'm a senior at the University of South Carolina in Columbia majoring in computer science.  My experience
+includes designing and developing Android applications in a team environment under strict deadlines, databases
+to be implemented in academic and real world situations, and incorporating multiple computer aspects to create
+a unified system to solve and prevent problems.
+
+What I most enjoy about the technology field is having the opportunity to be part of providing solutions to
+current problems.  The work I've been a part of will be used to make improvements in the medical field with 
+the assessment and treatment of patients, and in the biology field, examining relationships between proteins
+and exploring the new possibilities from the discoveries.  The work I've done has allowed me to continue to 
+learn, grow as both a person and a computer scientist, and possibly contribute multiple diciplines.
+
+In my spare time, I enjoy reading(fiction, nonfiction, graphic novels), playing video games, and doing other
+stuff.
+
+
+**************************************************************************************************************
+Skills
+
+
+**************************************************************************************************************
+Experience
+
+**************************************************************************************************************
+Projects
+
+**************************************************************************************************************
+Contact

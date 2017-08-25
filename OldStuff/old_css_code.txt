@@ -1,0 +1,29 @@
+		<div class="container">
+
+		<nav>
+		  	<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Me</a></li>
+					<li><a href="#">Resume</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Contact</a></li>
+		  	</ul>
+		</nav>
+
+		<article>
+			<h1>Contact Info</h1>
+		  	<p>Work in progress.</p>
+		</article>
+
+		<article>
+			<h1>Resume</h1>
+			<p>Also in progress.</p>
+		</article>
+
+		<article>
+			<h1>Projects</h1>
+			<p>You should get the idea by now.</p>
+			<a href="https://github.com/dvjr22/CindysList">Cindy's List</a>
+		</article>
+
+		</div>

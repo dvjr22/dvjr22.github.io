@@ -6,6 +6,10 @@
 	margin-right: 0;
 }
 
+* {
+	font-family: open sans;
+}
+
 /*************************************************************************************************************
 * Header
 */
@@ -72,7 +76,6 @@ img.me {
 	background: url("Img/keyboard.jpg");
 	background-size: cover;
 	position: relative;
-	background-color: #FF5733;
 	width: 100%;
 	height: auto;
 	display: inline-block;
@@ -88,16 +91,29 @@ div.business {
 	float: left;
 }
 
+ul {
+  	display: flex;
+  	/* change this value as you need */
+  	width: 450px; 
+  	justify-content: space-between;
+	
+}
+
 .oval {
- 	width: 120px;
-	height: 100px;
-	display: table-cell; 
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 50%;
-/*	background: Gray;  */
-	border: 2px solid white;
-	font-weight: bold;	
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	width: 120px;
+  	height: 70px;
+  	border-radius: 50%;
+  	/* background: #2b2b2b; */
+	background-color: rgba(43, 43, 43, 0.8);
+  	border: 2px solid white;
+  	font-weight: bold;
+}
+
+ul.list {
+	display: inline;
 }
 
 /*************************************************************************************************************
@@ -112,18 +128,27 @@ div.business {
 	display: inline-block;
 }
 
+/*************************************************************************************************************
+* Experience
+*/
+
 .projects {
 	position: relative;
 	background-color: #b1fa91;
 	width: 100%;
 	height: 500px;
+	display: inline-block;
 }
 
+/*************************************************************************************************************
+* Experience
+*/
 .contact {
 	position: relative;
 	background-color: #91f7fa;
 	width: 100%;
 	height: 500px;
+	display: inline-block;
 }
 
 .footer {

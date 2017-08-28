@@ -1,5 +1,7 @@
 /* css for my website */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
 	box-sizing: border-box;
 	margin-left: 0;
@@ -7,7 +9,7 @@
 }
 
 * {
-	font-family: open sans;
+	font-family: Open Sans;
 }
 
 /*************************************************************************************************************
@@ -27,6 +29,7 @@
 .name {
 	font-size: 5em;
 	color: white;
+	font-family: helvetica;
 }
 
 .title {
@@ -71,7 +74,6 @@ img.me {
 /*************************************************************************************************************
 * Skills
 */
-
 .skills {
 	background: url("Img/keyboard.jpg");
 	background-size: cover;
@@ -84,11 +86,13 @@ img.me {
 
 div.language {
 	float: left;
-	width: 50%;
+	width: auto;
+	padding-right: 100px;
 }
 
 div.business {
 	float: left;
+	padding-left: 100px;
 }
 
 ul {
@@ -106,7 +110,6 @@ ul {
   	width: 120px;
   	height: 70px;
   	border-radius: 50%;
-  	/* background: #2b2b2b; */
 	background-color: rgba(43, 43, 43, 0.8);
   	border: 2px solid white;
   	font-weight: bold;
@@ -114,6 +117,10 @@ ul {
 
 ul.list {
 	display: inline;
+	float: left;
+	width: 100%;
+
+	font-size: 120%;
 }
 
 /*************************************************************************************************************

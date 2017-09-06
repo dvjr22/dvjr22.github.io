@@ -31,5 +31,59 @@ Experience
 **************************************************************************************************************
 Projects
 
+Cindy's List
+
+Description - An Android application designed to create and manage shopping lists. Design was influenced by
+attempting to trigger the user's memory by providing a preloaded selection of items that can be added to
+an individual's list. Each item in the list can have price, image, and upc associated to highten the user 
+experience.
+
+Current Status - Undergoing strict testing and receiving intense scrutiny. The application is 
+capable of creating and editing multiple lists, providing a total for all the items, and keeping track of
+items while shopping.  
+
+Future Plans -  
+	- Adding a server for uploading of data (upc, prices) dynamically based on the user's location
+	- initial download of images to the stock database
+	- Add/store recipes and be able to add all the items from the recipe into a shopping list
+	- Sort lists by category/isles based on location
+	- Share lists between multiple users
+
+
+Advise Me
+
+Description - A system that will assist college students through the majority of advising requirements.  
+System was concieved due to the need at the University of South Carolina for proper advising.
+
+Current Status - Currently in rough design phase.
+
+Future Plans -Planned system capabilities include:
+	Track student progress through degree curriculum
+		Ensure students are aware of minimum grade requirements
+		Track prerequisites 
+		Suggest classes that should be completed per year/semester
+	Provide alerts for withdrawal/drop dates and registration times
+	Provide students and advisors with a simple system for advisement/registration
+		Set up appointments
+		Approval of schedules
+	Notify students of important dates, milestones, and requirements
+		Senior checks
+		Financial Aide reminders
+	Track required class availability
+
+Links:
+	- USC proposal
+	- github - https://github.com/tmoon8730/USCAdvisor
+
+Triage
+
+Description - 
+
+Current Status - 
+
+Future Plans - 
+
+
+
 **************************************************************************************************************
 Contact

@@ -5,6 +5,8 @@
 	<head>
 		<title>Diego Valdes</title>
 		<link href="style.css" rel="stylesheet" type="text/css" >
+		<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> -->
 	</head>
 
 	<body>
@@ -95,8 +97,8 @@
 		</div>
 
 		<div class="experience">
-			<h1>experience</h1>
-			<h4>Work in progress</h4>
+			<!-- <i class="material-icons">insert_drive_file</i> -->
+			<a class="resume" href="Docs/uscAdvisor.pdf" target="_blank">VIEW MY FULL RESUME</a>
 		</div>
 
 		<div class="projects">
@@ -104,28 +106,6 @@
 
 			<div class="proj">
 				<h4>Cindy's List</h4>
-				<p class="proj">Description here</p>
-				<h4>Current Status</h4>
-				<p class="proj">Current state of project here</p>
-				<h4>Future Plans</h4>
-				<p class="proj">Future plans for project here</p>
-				<h4>Links</h4>
-				<a class="proj" href="https://github.com/dvjr22/CindysList" target="_blank">Click Me</a>
-			</div>
-
-			<div class="proj">
-				<h4>Triage</h4>
-				<p class="proj">Description here</p>
-				<h4>Current Status</h4>
-				<p class="proj">Current state of project here</p>
-				<h4>Future Plans</h4>
-				<p class="proj">Future plans for project here</p>
-				<h4>Links</h4>
-				<a class="proj" href="https://github.com/dvjr22/CindysList" target="_blank">Click Me</a>
-			</div>
-			
-			<div class="proj">
-				<h4>Protein Database</h4>
 				<p class="proj">Description here</p>
 				<h4>Current Status</h4>
 				<p class="proj">Current state of project here</p>
@@ -144,13 +124,54 @@
 				<p class="proj">Future plans for project here</p>
 				<h4>Links</h4>
 				<a class="proj" href="Docs/uscAdvisor.pdf" target="_blank">Initial Proposal</a>
+				<a class="proj" href="https://github.com/SCCapstone/AdviseMe" target="_blank">Repository</a>
+			</div>
+<!--
+			<div class="proj">
+				<h4>Triage</h4>
+				<p class="proj">Description here</p>
+				<h4>Current Status</h4>
+				<p class="proj">Current state of project here</p>
+				<h4>Future Plans</h4>
+				<p class="proj">Future plans for project here</p>
+				<h4>Links</h4>
+				<a class="proj" href="https://github.com/dvjr22/CindysList" target="_blank">Click Me</a>
 			</div>
 
+			<div class="proj">
+				<h4>Protein Database</h4>
+				<p class="proj">Description here</p>
+				<h4>Current Status</h4>
+				<p class="proj">Current state of project here</p>
+				<h4>Future Plans</h4>
+				<p class="proj">Future plans for project here</p>
+				<h4>Links</h4>
+				<a class="proj" href="https://github.com/dvjr22/CindysList" target="_blank">Click Me</a>
+			</div>
+-->
 		</div>
 
 		<div class="contact">
 			<h1>contact</h1>
-			<h4>Work in progress</h4>
+
+			<form action="contact_info.php" method="POST">
+
+			    	<label for="name">NAME</label>
+			    	<input type="text" name="name" placeholder="Your name..">
+
+			    	<label for="email">EMAIL</label>
+			    	<input type="text" name="email" placeholder="email..">
+
+				<label for="subject">SUBJECT</label>
+			    	<input type="text" name="subject" placeholder="subject..">
+
+			    	<label for="message">MESSAGE</label>
+			    	<textarea name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+			    	<input type="submit" name="submit" value="SUBMIT">
+
+			</form>
+			
 		</div>
 
 		<div class="footer">

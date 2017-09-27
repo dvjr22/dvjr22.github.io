@@ -13,6 +13,41 @@
 	font-family: Open Sans;
 }
 
+.section {
+	font-size: 3em;
+	color: white;
+	font-family: times;
+}
+
+.sub {
+	font-size: 2em;
+	color: white;
+}
+
+i.sub {
+
+	margin: 0px 20px 0px 40px; 
+	float: left;
+	font-family: 'Material Icons';
+  	/* Support for all WebKit browsers. */
+  	-webkit-font-smoothing: antialiased;
+  	/* Support for Safari and Chrome. */
+  	text-rendering: optimizeLegibility;
+
+  	/* Support for Firefox. */
+  	-moz-osx-font-smoothing: grayscale;
+
+  	/* Support for IE. */
+  	font-feature-settings: 'liga';
+}
+
+img.sub {
+	margin: 0px 20px 0px 40px; 
+	float: left;
+	height: 2em;
+
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -38,6 +73,15 @@
   font-feature-settings: 'liga';
 }
 
+.hr {
+	width: 25%;
+	margin: 40px;
+	background-color: #ff0008;
+	color: #ff0008;
+	height: 2px;
+	
+	
+}
 
 /*************************************************************************************************************
 * Header
@@ -78,7 +122,7 @@
 
 div.me {
 	color: white;
-	width: 65%;
+	width: auto;
 }
 
 h1, h4, h6 {
@@ -94,7 +138,7 @@ p.me {
 img.me {
 	height: 500px;
 	float: right;
-	margin: 30px;
+	margin: 40px;
 	border-radius: 100%; 	
 }
 
@@ -115,12 +159,13 @@ img.me {
 div.language {
 	float: left;
 	width: auto;
-	padding-right: 100px;
+	/* padding-right: 100px; */
 }
 
 div.business {
 	float: left;
-	padding-left: 100px;
+	width: 30%;
+	padding-left: 90px;
 }
 
 ul {
@@ -128,7 +173,6 @@ ul {
   	/* change this value as you need */
   	width: 450px; 
   	justify-content: space-between;
-	
 }
 
 .oval {
@@ -147,7 +191,7 @@ ul.list {
 	display: inline;
 	float: left;
 	width: 100%;
-
+	margin: 30px;
 	font-size: 120%;
 }
 
@@ -157,7 +201,7 @@ ul.list {
 
 .experience {
 	position: relative;
-	background-color:  #06b3f0;
+	background-color: #0733f6; /* #06b3f0;   */
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -205,25 +249,29 @@ a.proj {
 .contact {
 	position: relative;
 	background-color: #06b3f0;
-	width: 100%;
+	width: 100%; 
 	height: auto;
 	display: inline-block;
-	
 	border-radius: 5px;
-	padding: 40px
+	padding: 40px;
+    	margin: auto;
 
 }
 
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    	width: 100%; /* Full width */
+    	padding: 12px; /* Some padding */ 
+    	/* border: 1px solid #ccc; /* Gray border */
+	border: none;
+    	/* border-radius: 4px; /* Rounded borders */
+	border-bottom: 2px solid red;
+	background-color: #06b3f0;
+    /* box-sizing: border-box; /* Make sure that padding and width stays in place */
+    	margin-top: 6px; /* Add a top margin */
+    	margin-bottom: 16px; /* Bottom margin */
+
 }
 
 /* Style the submit button with a specific background color etc */
@@ -247,6 +295,7 @@ input[type=submit]:hover {
 * Footer
 */
 .footer {
+	position: relative;
 	padding: 1em;
 	color: white;
 	text-align: center;

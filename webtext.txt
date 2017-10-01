@@ -3,22 +3,31 @@
 About me
 A little about me...
 
-I'm an inquisitive, energetic computer scientist with a passion for data collection/management and software
-design.
+I'm inquisitive, energetic and fascinated with the possibilities of data collection and management.
 
 I'm a senior at the University of South Carolina in Columbia majoring in computer science.  My experience
 includes designing and developing Android applications in a team environment under strict deadlines, databases
-to be implemented in academic and real world situations, and incorporating multiple computer aspects to create
-a unified system to solve and prevent problems.
+to be implemented in academic and real world situations, and implementing multiple APIs to unify multiple 
+systems. 
 
-What I most enjoy about the technology field is having the opportunity to be part of providing solutions to
-current problems.  The work I've been a part of will be used to make improvements in the medical field with 
-the assessment and treatment of patients, and in the biology field, examining relationships between proteins
-and exploring the new possibilities from the discoveries.  The work I've done has allowed me to continue to 
-learn, grow as both a person and a computer scientist, and possibly contribute multiple diciplines.
+The majority of the enjoyment I get from being a computer scientist originates from being able to provide
+solutions to ra variety of academic and real world situations. By incorporating multiple systems to include 
+decision logic and database components, I've collaborated on a project that will assist the medical field by 
+providing improved methods to assess and treat patients during mass casualty events. The benefits of this project 
+include helping first responders  more efficiently analyze and determine patient aiglments during the most critical
+scenarios. In the biology field, I desigined and implemented a relational database schema for the purpose of dissecting 
+the Protein Data Bank into a finer grain to answer longstanding challenges in Structural Biology. Numerous
+scientific questions can benefit from the parsing of the PDB, but the initial research is focused on examining 
+the dihedral angles of consecutive amino acids. Due to the size of the data and the nature of the queries,
+implementation of a big database management system might prove the only timily method to mine the data.
 
-In my spare time, I enjoy reading(fiction, nonfiction, graphic novels), and trying not to play too many video
-games.
+
+
+The work I've done has allowed me to continue to learn, grow as both a person and a computer scientist, and 
+contribute multiple diciplines.
+
+In my spare time, I enjoy reading (fiction, nonfiction, graphic novels), breaking coding projects, riding my
+bike at the crack of dawn, and when all else fails, trying not to play too many video games.
 
 
 **************************************************************************************************************

@@ -136,11 +136,12 @@ p.me {
 }
 
 img.me {
-	height: 500px;
+	height: 700px; 
 	float: right;
 	margin: 40px;
 	border-radius: 100%; 	
 }
+
 
 
 /*************************************************************************************************************
@@ -289,6 +290,43 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+
+/*************************************************************************************************************
+* Test div
+*/
+.testdiv {
+	position: relative;
+	background-color: #2b2b2b;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.testdiv2 {
+	background-color: blue;
+	display: inline-block;
+	width: 100%;
+
+}
+
+.testdiv3 {
+	background-color: red;
+	float: left;
+	width: 67%;
+
+}
+
+.testdiv4 {
+	background-color: orange;
+	padding: 50px;
+	float: left;
+	width: 33%;
+}
+
+img.test {
+	border-radius: 100%; 
+
+}
 
 
 /*************************************************************************************************************

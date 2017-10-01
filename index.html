@@ -19,37 +19,51 @@
 		</div>
 
 		<div class="about-me">
-			<img src="Img/Diego_04.jpg" alt="Diego Valdes" class="me"/>  
-			<h1 class="section">A little about me...</h1>
-			<h4>I'm inquisitive, energetic and fascinated with the possibilities of data collection and 
+
+			<div>
+				<h1 class="section">A little about me...</h1>
+			<h4 class="desc">I'm inquisitive, energetic and fascinated with the possibilities of data collection and 
 			management.</h4>
-		
-			<hr class="hr">
+				<hr class="hr">
 
-			<div class="me">
-				<p class="me">I'm a senior at the University of South Carolina in Columbia majoring in computer 
-				science.  My experience includes designing and developing Android applications in a team environment 
-				under strict deadlines, databases to be implemented in academic and real world situations, and 
-				implementing multiple APIs to unify multiple systems. </p>
+				<div class="me-cont">
+			
+					<div class="me-info">
+									
+					<p class="me">I'm a senior at the University of South Carolina in Columbia majoring in computer 
+					science.  My experience includes designing and developing Android applications in a team environment 
+					under strict deadlines, databases to be implemented in academic and real world situations, and 
+					implementing multiple APIs to unify multiple systems. </p>
 
-				<p class="me">The majority of the enjoyment I get from being a computer scientist originates 
-				from being able to provide solutions to ra variety of academic and real world situations. By 
-				incorporating multiple systems to include decision logic and database components, I've collaborated 
-				on a project that will assist the medical field by providing improved methods to assess and treat 
-				patients during mass casualty events. The benefits of this project include helping first responders 
-				more efficiently analyze and determine patient aiglments during the most critical scenarios. 
-				In the biology field, I desigined and implemented a relational database schema for the purpose 
-				of dissecting the Protein Data Bank into a finer grain to answer longstanding challenges in 
-				Structural Biology. Numerous scientific questions can benefit from the parsing of the PDB, but 
-				the initial research is focused on examining the dihedral angles of consecutive amino acids. 
-				Due to the size of the data and the nature of the queries, implementation of a big database 
-				management system might prove the only timily method to mine the data. The work I've done has 
-				allowed me to continue to learn, grow as both a person and a computer scientist, and contribute 
-				multiple diciplines.</p>
+					<p class="me">The majority of the enjoyment I get from being a computer scientist originates 
+					from being able to provide solutions to ra variety of academic and real world situations. By 
+					incorporating multiple systems to include decision logic and database components, I've collaborated 
+					on a project that will assist the medical field by providing improved methods to assess and treat 
+					patients during mass casualty events. The benefits of this project include helping first responders 
+					more efficiently analyze and determine patient aiglments during the most critical scenarios. 
+					In the biology field, I desigined and implemented a relational database schema for the purpose 
+					of dissecting the Protein Data Bank into a finer grain to answer longstanding challenges in 
+					Structural Biology. Numerous scientific questions can benefit from the parsing of the PDB, but 
+					the initial research is focused on examining the dihedral angles of consecutive amino acids. 
+					Due to the size of the data and the nature of the queries, implementation of a big database 
+					management system might prove the only timily method to mine the data. The work I've done has 
+					allowed me to continue to learn, grow as both a person and a computer scientist, and contribute 
+					multiple diciplines.</p>
 
-				<p class="me">In my spare time, I enjoy reading (fiction, nonfiction, graphic novels), breaking 
-				coding projects, riding my bike at the crack of dawn, and when all else fails, trying not to 
-				play too many video games.</p>
+					<p class="me">In my spare time, I enjoy reading (fiction, nonfiction, graphic novels), breaking 
+					coding projects, riding my bike at the crack of dawn, and when all else fails, trying not to 
+					play too many video games.</p>
+
+
+					</div>
+
+					<div class="me-pic">
+						<img src="Img/Diego_04.jpg" alt="Diego Valdes" class="profile" style='height: 100%; width: 100%; object-fit: contain'/>  
+
+					</div>
+
+				</div>
+
 			</div>
 
 		</div>
@@ -59,10 +73,11 @@
 			<hr class="hr">
 			
 			<div class="language">
-				<div>
+				<div class="skills-cont">
 					<i class="sub"style="font-size:2em; color:white;">important_devices</i> 
 					<h4 class="sub">Development</h4>
 				</div>
+
 				<ul>
 					<li class="oval">SQL</li>
 					<li class="oval">Java</li>
@@ -81,10 +96,12 @@
 					<li class="oval">Prolog</li>
 				</ul>
 
+<!--
 				<ul>
 					<li class="oval">HTML</li>
 					<li class="oval">CSS</li>
 				</ul>
+-->
 			</div>
 
 			<div class="business">
@@ -131,14 +148,34 @@
 					<img class="sub" src="Img/ic_launcher.png" />
 					<h4 class="sub">Cindy's List</h4>
 				<</div>
-				<p class="proj">Description here</p>
+				<p class="proj">An Android application designed to create and manage shopping lists. Design was 
+				influenced by attempting to trigger the user's memory by providing a preloaded selection of items 
+				that can be added to an individual's list. Each item in the list can have price, image, and upc 
+				associated to highten the user experience.</p>
 				<h4>Current Status</h4>
-				<p class="proj">Current state of project here</p>
+				<p class="proj">Undergoing strict testing and receiving intense scrutiny. The application is 
+				capable of creating and editing multiple lists, providing a total for all the items, and keeping 
+				track of items while shopping. </p>
+
 				<h4>Future Plans</h4>
-				<p class="proj">Future plans for project here</p>
+
+				<div class="list">
+					<ul class="list-proj">
+						<li>Adding a server for uploading of data (upc, prices) dynamically based on the user's location</li>
+						<li>Initial download of images to the stock database</li>
+						<li>Add/store recipes and add recipe items into a shopping list</li>
+						<li>Sort lists by category/isles based on location</li>
+						<li>Share lists between multiple users</li>
+					</ul>
+				</div>
+
 				<h4>Links</h4>
+				<div class="pad">
 				<a class="proj" href="https://github.com/dvjr22/CindysList" target="_blank">Click Me</a>
+				</div>
 			</div>
+
+			
 
 			<div class="proj">
 				<div>
@@ -202,57 +239,7 @@
 
 		</div>
 
-<!-- Test start div -->
-		<div class="testdiv">
 
-			<div>
-				<h1 class="section">A little about me...</h1>
-			<h4>I'm inquisitive, energetic and fascinated with the possibilities of data collection and 
-			management.</h4>
-				<hr class="hr">
-
-				<div class="testdiv2">
-			
-					<div class="testdiv3">
-									
-					<p class="me">I'm a senior at the University of South Carolina in Columbia majoring in computer 
-					science.  My experience includes designing and developing Android applications in a team environment 
-					under strict deadlines, databases to be implemented in academic and real world situations, and 
-					implementing multiple APIs to unify multiple systems. </p>
-
-					<p class="me">The majority of the enjoyment I get from being a computer scientist originates 
-					from being able to provide solutions to ra variety of academic and real world situations. By 
-					incorporating multiple systems to include decision logic and database components, I've collaborated 
-					on a project that will assist the medical field by providing improved methods to assess and treat 
-					patients during mass casualty events. The benefits of this project include helping first responders 
-					more efficiently analyze and determine patient aiglments during the most critical scenarios. 
-					In the biology field, I desigined and implemented a relational database schema for the purpose 
-					of dissecting the Protein Data Bank into a finer grain to answer longstanding challenges in 
-					Structural Biology. Numerous scientific questions can benefit from the parsing of the PDB, but 
-					the initial research is focused on examining the dihedral angles of consecutive amino acids. 
-					Due to the size of the data and the nature of the queries, implementation of a big database 
-					management system might prove the only timily method to mine the data. The work I've done has 
-					allowed me to continue to learn, grow as both a person and a computer scientist, and contribute 
-					multiple diciplines.</p>
-
-					<p class="me">In my spare time, I enjoy reading (fiction, nonfiction, graphic novels), breaking 
-					coding projects, riding my bike at the crack of dawn, and when all else fails, trying not to 
-					play too many video games.</p>
-
-
-					</div>
-
-					<div class="testdiv4">
-						<img src="Img/Diego_04.jpg" alt="Diego Valdes" class="test" style='height: 100%; width: 100%; object-fit: contain'/>  
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-<!-- Test start div -->
 
 		<div class="footer">
 			<footer>Copyright &copy; Diego Valdes</footer>

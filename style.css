@@ -14,14 +14,21 @@
 }
 
 .section {
-	font-size: 3em;
+	font-size: 4em;
 	color: white;
 	font-family: times;
+}
+
+.desc {
+	font-size: 1.5em;
+	color: white;
 }
 
 .sub {
 	font-size: 2em;
 	color: white;
+	padding: 0;
+	margin: 0;
 }
 
 i.sub {
@@ -120,9 +127,21 @@ img.sub {
 	display: inline-block;
 }
 
-div.me {
-	color: white;
-	width: auto;
+div.me-cont {
+	display: inline-block;
+	width: 100%;
+
+}
+
+div.me-info {
+	float: left;
+	width: 67%;
+}
+
+div.me-pic {
+	padding: 20px;
+	float: left;
+	width: 33%;
 }
 
 h1, h4, h6 {
@@ -135,14 +154,10 @@ p.me {
 	margin: 40px;
 }
 
-img.me {
-	height: 700px; 
-	float: right;
-	margin: 40px;
-	border-radius: 100%; 	
+
+img.profile {
+	border-radius: 100%; 
 }
-
-
 
 /*************************************************************************************************************
 * Skills
@@ -155,6 +170,10 @@ img.me {
 	height: auto;
 	display: inline-block;
 	color: white;
+}
+
+div.skills-cont {
+	padding-bottom: 20px;
 }
 
 div.language {
@@ -174,6 +193,7 @@ ul {
   	/* change this value as you need */
   	width: 450px; 
   	justify-content: space-between;
+
 }
 
 .oval {
@@ -235,6 +255,14 @@ div.proj {
 	padding-right: 100px;
 }
 
+div.list {
+	margin-left: 50px;
+}
+
+div.pad {
+	padding-bottom: 40px;
+}
+
 p.proj {
 	margin: 40px
 }
@@ -243,6 +271,17 @@ a.proj {
 	margin: 40px;
 	color: yellow;
 }
+
+ul.list-proj {
+	margin: 100px;
+	display: inline;
+	float: left;
+	width: 100%;
+	margin: 30px;
+	font-size: 100%;
+}
+
+
 
 /*************************************************************************************************************
 * Contact
@@ -294,39 +333,9 @@ input[type=submit]:hover {
 /*************************************************************************************************************
 * Test div
 */
-.testdiv {
-	position: relative;
-	background-color: #2b2b2b;
-	width: 100%;
-	height: auto;
-	display: inline-block;
-}
 
-.testdiv2 {
-	background-color: blue;
-	display: inline-block;
-	width: 100%;
 
-}
 
-.testdiv3 {
-	background-color: red;
-	float: left;
-	width: 67%;
-
-}
-
-.testdiv4 {
-	background-color: orange;
-	padding: 50px;
-	float: left;
-	width: 33%;
-}
-
-img.test {
-	border-radius: 100%; 
-
-}
 
 
 /*************************************************************************************************************

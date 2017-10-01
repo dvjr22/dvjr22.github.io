@@ -54,7 +54,7 @@ items while shopping.
 Future Plans -  
 	- Adding a server for uploading of data (upc, prices) dynamically based on the user's location
 	- initial download of images to the stock database
-	- Add/store recipes and be able to add all the items from the recipe into a shopping list
+	- Add/store recipes and add recipe items into a shopping list
 	- Sort lists by category/isles based on location
 	- Share lists between multiple users
 

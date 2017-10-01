@@ -5,8 +5,7 @@
 
 * {
 	box-sizing: border-box;
-	margin-left: 0;
-	margin-right: 0;
+	margin: 0;
 }
 
 * {
@@ -103,8 +102,14 @@ img.sub {
 	background-color: #ff0008;
 	color: #ff0008;
 	height: 2px;
-	
-	
+}
+
+hr.proj-div {
+	width: 95%;
+	margin: 40px;
+	background-color: #ff0008;
+	color: #ff0008;
+	height: 2px;
 }
 
 /*************************************************************************************************************
@@ -267,17 +272,17 @@ a.resume {
 	color: white;
 }
 
-div.proj {
+.git-links {
+	position: relative;
+	background-color: #0733f6; /* #06b3f0;   */
 	width: 100%;
-	padding-right: 100px;
+	height: auto;
+	text-align: center;
+	padding: 20px;
 }
 
 div.list {
-	margin-left: 50px;
-}
-
-div.pad {
-	padding-bottom: 40px;
+	margin-left: 100px;
 }
 
 p.proj {
@@ -285,14 +290,12 @@ p.proj {
 }
 
 a.proj {
-	margin: 40px;
-	color: yellow;
+	font-size: 2em;
+	color: white;
 }
 
 ul.list-proj {
-	margin: 100px;
 	display: inline;
-	float: left;
 	width: 100%;
 	margin: 30px;
 	font-size: 100%;
@@ -303,18 +306,29 @@ ul.list-proj {
 /*************************************************************************************************************
 * Contact
 */
-.contact {
+.contact-test {
 	position: relative;
-	background-color: #06b3f0;
+	background-color: #2b2b2b;
 	width: 100%; 
 	height: auto;
 	display: inline-block;
-	border-radius: 5px;
-	padding: 40px;
-    	margin: auto;
-
+	padding-bottom: 40px;
 }
 
+div.contact-center {
+    width: %100;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.info-form {
+	width: 50%;
+	height: auto;
+    float: none;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], textarea {
@@ -351,29 +365,7 @@ input[type=submit]:hover {
 * Test div
 */
 
-.contact-test {
-	position: relative;
-	background-color: #2b2b2b;
-	width: 100%; 
-	height: auto;
-	display: inline-block;
-	padding-bottom: 40px;
-}
 
-div.contact-center {
-    width: %100;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-div.info-form {
-	width: 50%;
-	height: auto;
-    float: none;
-}
 
 
 

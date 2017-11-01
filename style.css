@@ -116,8 +116,9 @@ hr.proj-div {
 * Header
 */
 .header {
-	background: url("Img/night_sky.jpg");
+	/* background: url("Img/night_sky.jpg"); */
 	/* background: url("Img/pc_desk.jpg"); */
+	background: url("Img/usc_bench.jpg"); 
 	background-size: cover;
 	width: 100%;
 	height: 800px;

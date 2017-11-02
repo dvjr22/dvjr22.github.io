@@ -202,18 +202,20 @@ div.skills-cont {
 div.language {
 	float: left;
 	width: auto;
+	padding-bottom: 15px;
 	/* padding-right: 100px; */
 }
 
+
 div.business {
 	float: left;
-	width: 30%;
+	/* width: 50%; */
 	padding-left: 90px;
 }
 
 ul {
   	display: flex;
-  	/* change this value as you need */
+  	/* change this value as needed */
   	width: 450px; 
   	justify-content: space-between;
 
@@ -263,7 +265,7 @@ a.resume {
 */
 
 .projects {
-	background: url("Img/matrix.jpg");
+	background: url("Img/Keyboard-Wallpaper.jpg");
 	background-size: cover;
 	background-position: right center;
 	position: relative;
@@ -298,7 +300,6 @@ a.proj {
 ul.list-proj {
 	display: inline;
 	width: 100%;
-	margin: 30px;
 	font-size: 100%;
 }
 
@@ -343,8 +344,15 @@ input[type=text], textarea {
     /* box-sizing: border-box; /* Make sure that padding and width stays in place */
     	margin-top: 6px; /* Add a top margin */
     	margin-bottom: 16px; /* Bottom margin */
+		color: white;
 
 }
+
+/*
+input[type=text]:focus {
+    color: white;
+}
+*/
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {

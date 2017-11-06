@@ -40,14 +40,42 @@
 /*************************************************************************************************************
 * Header
 */
-.header {
+div.container-intro {
 
 	background: url("Img/usc_bench.jpg"); 
 	background-size: cover;
 	width: 100%;
 	height: 800px;
 	display: flex;
-	justify-content: center;
-  	align-items: center; 
+	justify-content: initial; /* horizontal */
+  	align-items: flex-end; /* vertical */
+}
 
+hr.intro {
+	width: 25%;
+	background-color: #ff0008;
+	color: #ff0008;
+	height: 2px;
+}
+
+div.container-desc {
+	width: 75%;
+	margin: 40px;
+	font-weight: bold;
+}
+
+div.container-links {
+	position: relative;
+	display: inline-block;
+	height: auto;
+	width: 25%;
+	margin: 40px;
+	justify-content: flex-end; /* horizontal */
+  	align-items: center; /* vertical */
+
+}
+
+span {
+	padding-left: 15px;
+	padding-right: 15px;
 }

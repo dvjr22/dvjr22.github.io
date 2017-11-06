@@ -35,27 +35,31 @@
 	color: white;
 }
 
-
-
 /*************************************************************************************************************
 * Header
 */
 div.container-intro {
 
-	background: url("Img/usc_bench.jpg"); 
+	background: url("Img/night_sky.jpg"); 
 	background-size: cover;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 	display: flex;
 	justify-content: initial; /* horizontal */
   	align-items: flex-end; /* vertical */
 }
 
 hr.intro {
-	width: 25%;
-	background-color: #ff0008;
-	color: #ff0008;
+	width: 33%;
+	background-color: #D4AA48;
+	color: #D4AA48;
 	height: 2px;
+}
+
+div.container-about {
+	color: #D4AA48;
+	width: auto;
+	padding-bottom: 25px;
 }
 
 div.container-desc {
@@ -70,12 +74,36 @@ div.container-links {
 	height: auto;
 	width: 25%;
 	margin: 40px;
-	justify-content: flex-end; /* horizontal */
+	/*Below aren't needed as of now*/
+		justify-content: flex-end; /* horizontal */
   	align-items: center; /* vertical */
-
 }
 
-span {
+h2.about {
+	color: #D4AA48;
+}
+
+p.about {
+	padding-bottom: 10px;
+}
+
+a.text-link {
+	color: #D4AA48;
+	text-decoration: none;
+}
+
+span.icons {
 	padding-left: 15px;
-	padding-right: 15px;
 }
+/*
+* Close Header
+*************************************************************************************************************/
+
+
+/*************************************************************************************************************
+* Work Experience
+*/
+
+/*
+* Close Work Experience
+*************************************************************************************************************/

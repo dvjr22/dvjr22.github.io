@@ -1,0 +1,53 @@
+
+/* 	css style sheet for index.html 
+*	@author Diego Valdes
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/*************************************************************************************************************
+* Global site stuff
+*/
+
+/* Web browser rules */
+*::-webkit-input-placeholder {
+    color: white;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: white;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: white;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+/*	default box size and margin*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Open Sans;
+	color: white;
+}
+
+
+
+/*************************************************************************************************************
+* Header
+*/
+.header {
+
+	background: url("Img/usc_bench.jpg"); 
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+  	align-items: center; 
+
+}

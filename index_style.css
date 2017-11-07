@@ -108,33 +108,44 @@ span.icons {
 */
 div.container-work {
 	width: 100%;
-	height: sauto;
+	height: auto;
 	/*display: flex;*/
 }
 
 div.container-work-title {
 	color: black;
-	margin: 40px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
 	width: 75%;
 	font-weight: bold;
 }
 
 div.container-work-exp {
-	display: flex;
+	display: inline-flex;
+	position: relative;
 	margin: 40px;
+	overflow: hidden;
 }
 
 div.cover {
 	width: 75px;
 	object-fit: fill;
+	/* float: left; */
 }
 
 div.work-time {
 	padding-left: 50px;
+	padding-right: 100px;
+	width: 50%;
+	/*
+	float: left;
+	height: 100%;
+*/
 }
 
 div.work-desc {
-	padding-left: 200px;
+	overflow: hidden;
 }
 
 img.work {
@@ -155,10 +166,55 @@ hr.work {
 	height: 2px;
 }
 
+p.company {
+	color: black;
+	font-weight: bold;
+}
+
 p.work {
 	color: black;
 }
 
 /*
 * Close Work Experience
+*************************************************************************************************************/
+
+
+/*************************************************************************************************************
+* Publications
+*/
+div.container-pubs {
+	width: 100%;
+	height: auto;
+	background-color: #D4AA48;
+	/*display: flex;*/
+}
+
+div.container-pubs-title {
+	padding-top: 40px;
+	margin: 40px;
+	width: 75%;
+	font-weight: bold;
+}
+
+div.row {
+	display: inline-flex;
+	position: relative;
+	margin: 40px;
+	overflow: hidden;
+}
+
+div.pub {
+	padding-right: 25px;
+}
+
+p.pub {
+	color: black;
+}
+
+
+
+
+/*
+* Publications
 *************************************************************************************************************/

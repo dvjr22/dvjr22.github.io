@@ -124,7 +124,9 @@ div.container-work-title {
 div.container-work-exp {
 	display: inline-flex;
 	position: relative;
-	margin: 40px;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
 	overflow: hidden;
 }
 
@@ -146,6 +148,7 @@ div.work-time {
 
 div.work-desc {
 	overflow: hidden;
+	width: 100%;
 }
 
 img.work {
@@ -166,7 +169,7 @@ hr.work {
 	height: 2px;
 }
 
-p.company {
+p.position {
 	color: black;
 	font-weight: bold;
 }

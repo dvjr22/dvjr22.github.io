@@ -210,16 +210,19 @@ div.row {
 }
 
 div.pub {
-	width: 50%;
+	width: 100%;
 	padding-right: 10px;
 	padding-left: 10px;
+}
 
+div.pub-authors {
+	width: 100%;
 }
 
 h2.pub {
 	padding-bottom: 10px;
 	font-family: times;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 hr.intro {

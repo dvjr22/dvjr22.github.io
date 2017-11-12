@@ -39,8 +39,8 @@
 * Header
 */
 div.container-intro {
-
 	background: url("Img/night_sky.jpg"); 
+	/* background: url(Img/starry-sky-background.jpg); */
 	background-size: cover;
 	width: 100%;
 	height: 600px;
@@ -211,8 +211,8 @@ div.row {
 
 div.pub {
 	width: 100%;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 div.pub-authors {
@@ -222,7 +222,7 @@ div.pub-authors {
 h2.pub {
 	padding-bottom: 10px;
 	font-family: times;
-	font-size: 1em;
+	font-size: 2em;
 }
 
 hr.intro {
@@ -236,8 +236,8 @@ p.pub {
 	color: black;
 }
 p.pub-title {
-	font-size: 1.4em;
 	color: black;
+	font-weight: bold;
 }
 /*
 * Close Publications

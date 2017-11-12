@@ -39,8 +39,8 @@
 * Header
 */
 div.container-intro {
-	background: url("Img/night_sky.jpg"); 
-	/* background: url(Img/starry-sky-background.jpg); */
+	/* background: url("Img/night_sky.jpg"); */
+	background: url(Img/b_w_background.jpg); 
 	background-size: cover;
 	width: 100%;
 	height: 600px;
